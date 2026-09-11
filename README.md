@@ -10,7 +10,9 @@ brew install mlogan/diffvader/diffvader
 diffvader --install-git   # adds `git dv` / `git dvs` aliases and sets diff.tool
 ```
 
-Or `brew tap mlogan/diffvader` and then `brew install diffvader`.
+Homebrew 6 trusts a third-party formula automatically when you install it by its full
+name, as above. If you prefer `brew tap mlogan/diffvader` followed by
+`brew install diffvader`, run `brew trust mlogan/diffvader` first.
 
 In a `brew bundle` `Brewfile`:
 
