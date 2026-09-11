@@ -5,10 +5,12 @@ diff viewer for macOS with a vi-style interface, usable as a `git difftool`.
 
 ## Install
 
-```
+```sh
 brew install mlogan/diffvader/diffvader
-diffvader --install-git   # adds `git dv` / `git dvs` aliases and sets diff.tool
+diffvader --install-git
 ```
+
+The second command adds the `git dv` and `git dvs` aliases and sets `diff.tool`.
 
 Homebrew 6 trusts a third-party formula automatically when you install it by its full
 name, as above. If you prefer `brew tap mlogan/diffvader` followed by
