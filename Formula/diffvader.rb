@@ -1,8 +1,8 @@
 class Diffvader < Formula
   desc "Fast GPU-rendered side-by-side diff viewer for macOS, usable as a git difftool"
   homepage "https://github.com/mlogan/diffvader"
-  url "https://github.com/mlogan/diffvader/archive/refs/tags/v0.3.0.tar.gz"
-  sha256 "6fd761ed08a07f75d5823630bce36bba6584ee29ac99704f3cb03dab66dbebee"
+  url "https://github.com/mlogan/diffvader/archive/refs/tags/v0.4.0.tar.gz"
+  sha256 "ba8a33dfb6c52303c72d0115c8f51a5045043795e6dd5c43033d985440a25344"
   license "MIT"
   head "https://github.com/mlogan/diffvader.git", branch: "main"
 
